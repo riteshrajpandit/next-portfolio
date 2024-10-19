@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profilePic from '../app/assets/images/me.jpg'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import ThemeToggle from "./ThemeToggle";
 
@@ -23,7 +24,7 @@ export default function Home() {
       <main className="container mx-auto px-6 py-12">
         <section id="hero" className="text-center mb-20">
           <Image
-            src="/profile-picture.jpg"
+            src={profilePic}
             alt="John Doe"
             width={200}
             height={200}

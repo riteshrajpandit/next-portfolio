@@ -13,7 +13,7 @@ export default function Home() {
               <li><a href="#about" className="hover:text-gray-600 dark:hover:text-gray-300">About</a></li>
               <li><a href="#projects" className="hover:text-gray-600 dark:hover:text-gray-300">Projects</a></li>
               <li><a href="#contact" className="hover:text-gray-600 dark:hover:text-gray-300">Contact</a></li>
-              <li></li>
+              
             </ul>
           </nav>
           <ThemeToggle />
